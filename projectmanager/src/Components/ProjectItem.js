@@ -6,8 +6,7 @@ class ProjectItem extends Component {
     console.log(this.props);
     return (
       <li className="Project">
-        My Projects
-
+        {this.props.project.title} - {this.props.project.category}
       </li>
     );
   }
